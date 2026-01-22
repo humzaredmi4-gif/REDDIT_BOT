@@ -1,1 +1,3 @@
 # REDDIT_BOT
+
+Reddit conversational bot for AI-generated comment replies. Uses Reddit Data API for reading comments and posting replies. Educational, non-commercial.
