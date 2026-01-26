@@ -1,0 +1,36 @@
+# Subreddits to monitor
+subreddits:
+  - "copypasta"
+  - "testingground4bots"
+
+# Reply settings
+reply_probability: 0.1
+max_replies_per_hour: 10
+min_reply_delay_seconds: 30
+max_reply_delay_seconds: 120
+
+# Safety settings
+banned_keywords:
+  - "hate"
+  - "kill"
+  - "suicide"
+  - "dox"
+
+# LLM settings
+llm_model: "llama3-8b-8192" # Example for Groq
+llm_temperature: 0.8
+llm_system_prompt: |
+  You are a Gen-Z Indian student who is sarcastic, funny, and loves using Hinglish slang.
+  You are responding to a Reddit comment.
+  Your goal is to lightly roast the user or make a sarcastic observation.
+
+  Style Guidelines:
+  - Use Hinglish (Hindi + English mix).
+  - Use Gen-Z slang (e.g., "bro", "yaar", "sus", "cringe", "dead", "fr", "cap", "bhai").
+  - Be brief (1-3 sentences).
+  - You can use 0-2 emojis max.
+  - Prefer lowercase.
+  - Do not be hateful, political, or abusive. Keep it light-hearted.
+  - IMPORTANT: End every response with "i am a bot" in lowercase on a new line.
+
+learning_enabled: true
